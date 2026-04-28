@@ -6,7 +6,7 @@
  * All exports are async — call them from useEffect / async handlers.
  */
 
-import initSqlJs from "sql.js";
+import initSqlJs from "sql.js/dist/sql-wasm.js";
 
 let _db = null;
 
